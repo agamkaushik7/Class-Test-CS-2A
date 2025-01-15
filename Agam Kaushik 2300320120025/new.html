@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Bulb Project</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div id="app">
+        <button id="startBtn">START</button>
+
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <h2>Custom Lighting</h2>
+                <input type="number" id="bulbCount" min="1" placeholder="Enter number of bulbs">
+                <button id="doneBtn">Done</button>
+            </div>
+        </div>
+
+        <div id="bulbsContainer" class="hidden"></div>
+        <button id="resetBtn" class="hidden">Reset</button>
+    </div>
+
+    <script src="3.js"></script>
+</body>
+</html>
